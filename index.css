@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    margin:25px;
+    color:rgb(67, 225, 236) ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 56px;
+
+}
+.menu{
+    background: rgb(67, 225, 236) ;
+    position: fixed;
+    height:81%;
+    width: 20%;
+    margin-top: 1px;
+    border-radius: 15px;
+}
+.head{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:70px;
+    border-bottom: 2px solid rgba(255, 255,255,.4);
+}
+
+li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    margin-top: 39px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(238, 223, 223);
+    border-bottom: 1px solid rgb(238, 223, 223);
+    transition: .2s ease;
+    
+}
+li a:hover{
+    padding-left:70px;
+    background: white;
+    color: rgb(30, 4, 150);
+    border-radius: 12px 12px 12px 12px;
+}
+.con a{
+    font-size: 18px;
+}
+.word{
+    color: blue;
+    border-bottom: 2px solid wheat;
+    
+}
+.image{
+    text-align: center;
+    color: white;
+    background: rgb(67, 225, 236);
+    border-radius: 12px;
+    position: fixed;
+    top: 15%;
+    left:21%;
+    width: 78%;
+    height: 35%;
+}
+.image1 p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 60px;
+   float: right;
+   margin-top:16rem;
+   position: fixed;
+   right: 160px;
+   opacity: 2px;
+}
+
+.image2{
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 74%;
+    left:21%;
+    width: 78%;
+    height: 25%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    transition: .1s ease-in-out;
+}
+.footer{
+    font-size: 50px; 
+    color:blue;
+    margin-left: 100px;
+}
+.body{
+    margin-left:340px ;
+    height:550px;
+    width: 983px;
+    border-radius: 42px;
+    background:rgb(200, 240, 243) ;
+    box-shadow: 1px 1px 5px 5px rgb(67, 225, 236);
+}
+/*  log in */
+.imagee{
+    text-align: center;
+    border-radius: 12px;
+    position: fixed;
+    top: 15%;
+    left:21%;
+    width: 78%;
+    height: 56%;
+}
+.imagee img{
+    float: right;
+    margin-right: 7rem;
+    height: 20rem;
+}
+.lo{ 
+   margin-left:12rem;
+   margin-top: 7rem;
+
+}
+.lo input{ 
+    text-align: center;
+    height: 50px;
+    width: 360px;
+    border: none;
+    border-radius: 22px;
+}
+
+.body{
+    display: flex;
+}
+.loo input{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 360px;
+    border: none;
+    border-radius: 22px;
+}
+.loo{
+    margin-left:15rem;
+    margin-top: 5rem;
+}
+.listt{
+    margin-left:12rem;
+    margin-top: 220px;
+    word-spacing: 80px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add{
+    margin-top: 40px;
+    word-spacing: 130px;
+}
+.add a{
+    color: rgb(67, 225, 236) ;
+    height: 330px;
+    font-size: 40px;
+    border-top: 1px solid rgb(67, 225, 236) ;
+    border-bottom: 1px solid rgb(67, 225, 236);
+    transition: .2s ease-in-out;
+}
+.add a:hover{
+    margin-left: 23px;
+}
+.all{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 150px;
+    left: 400px;
+}
+.status{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 430px;
+    top: 180px;
+}
+.welcome{
+    display: flex;
+    gap: 20px;
+}
+.review{
+    height: 190px;
+    width: 220px;
+    border-radius: 30px;
+    background: rgb(200, 240, 243);
+    box-shadow: 1px 1px 4px 2px rgb(67, 225, 236);
+    margin-top: 160px;
+    margin-left: 80px;
+}
+.chr{
+    font-size: 70px;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my{
+    font-size:30px;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
